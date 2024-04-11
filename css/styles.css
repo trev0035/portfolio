@@ -109,6 +109,8 @@ body {
   font-weight: bold;
   font-size: 40px; 
   padding: 25px;
+  padding-bottom: 0px;
+  margin-bottom: 0px;
   line-height: 1.5;
 }
 
@@ -118,9 +120,25 @@ body {
   height: auto;
 }
 
+.keyboard-container {
+  text-align: center; /* Centers the inline(-block) elements within */
+  position: relative; /* Relative positioning to allow negative margin to work */
+  z-index: 10; /* Ensure the keyboard is above the footer */
+}
+
+.keyboard-image {
+  display: block;
+  margin: 0 auto;
+  margin-bottom: -20px;
+  width: 190px;
+  height: auto;
+  position: relative;
+}
+
 
 /* MOBILE FOOTER STYLES */
 .footer {
+    position: relative;
     width: 100%;
     background-color: #010101;
     color: white;
@@ -132,7 +150,7 @@ body {
     padding-left: 0;
     margin-right: auto;
     margin-left: auto;
-    width: 100%; /* Ensure it's full width */
+    width: 100%;
   }
 
 /* develop now link*/
