@@ -309,6 +309,31 @@ body {
   font-size: 16px; 
 }
 
+/* MOBILE SERVICES STYLES */
+/* Unique styles for service cards */
+.service-card {
+  margin: 60px auto; /* Increased margin for slimmer appearance */
+  padding: 10px; /* Reduced padding */
+}
+
+/* This will affect only the images within service cards */
+.service-card .card-image img {
+  max-width: 90%; /* Adjust width as necessary */
+}
+
+/* Optionally, you can adjust the text styles within service cards as well */
+.service-card .card-text {
+  font-size: 13px; /* Adjust font size as necessary */
+  line-height: 1.3; /* Adjust line height as necessary */
+}
+
+/* If you have additional unique elements in the service cards, add styles for them too */
+.service-card .service-description {
+  /* Unique styles for the service description */
+}
+
+
+
 
 /* MOBILE FOOTER STYLES */
 .footer {
