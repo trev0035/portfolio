@@ -89,8 +89,8 @@ body {
 /* jumping arrow */
 .jumping-svg {
   display: block;
-  margin-top: 200px;
-  margin-bottom: 100px;
+  margin-top: 250px;
+  margin-bottom: 20px;
   margin-left: auto;
   margin-right: auto;
   animation: jump 2s infinite;
@@ -121,9 +121,9 @@ body {
 }
 
 .keyboard-container {
-  text-align: center; /* Centers the inline(-block) elements within */
-  position: relative; /* Relative positioning to allow negative margin to work */
-  z-index: 10; /* Ensure the keyboard is above the footer */
+  text-align: center;
+  position: relative; 
+  z-index: 10; 
 }
 
 .keyboard-image {
