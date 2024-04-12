@@ -34,6 +34,11 @@ body {
     max-width: 100%
   }
 
+  /* MAKE SURE THIS EVEN WORKS */
+  .container.text-center{
+    max-width: 100%;
+  }
+
 /* SKIP LINKS STYLES */
 .skip-links{
     list-style: none;
@@ -148,7 +153,6 @@ body {
 }
 
 /* MOBILE WORK PAGE */
-
 /* work cards */
 .card {
   position: relative; 
