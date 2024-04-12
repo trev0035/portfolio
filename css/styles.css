@@ -10,7 +10,7 @@
 
 h1 {
     font-family: 'Redaction', sans-serif;
-    font-size: 35px;
+    font-size: 50px;
   }
 
 h2 {
@@ -253,6 +253,46 @@ body {
 .gallery-card-link:focus {
   text-decoration: underline; 
   color: inherit;
+}
+
+/* MOBILE PROCESS PAGE STYLES */
+.process-steps {
+  display: flex; /* Likely set to flex for horizontal layout */
+}
+
+.process-step {
+  flex: 1; /* Likely set to flex: 1 for equal width distribution among multiple cards */
+  margin: 10px; /* Margin for spacing between cards */
+  padding: 10px; /* Padding for content within the card */
+  border: 1px solid #010101; /* Border for card outline */
+  border-radius: 8px; /* Rounded corners for the card */
+  background-color: #fff; /* Likely white background color for the card */
+}
+
+.number-box {
+  width: 50px; /* Likely sets the width of the number box */
+  height: 50px; /* Likely sets the height of the number box */
+  text-align: center; /* Centers the number content  */
+  line-height: 50px; /* Aligns the number content vertically */
+  font-size: 20px; /* Font size for the number */
+  color: #010101; /* Likely white text color for the number */
+  margin-bottom: 10px; /* Margin for spacing between number box and content */
+}
+
+.step-content {
+  /* No styles likely defined specifically for step-content */
+  text-align: start;
+}
+
+
+h2 {
+  font-size: 18px; /* Likely font size for the heading */
+  margin-bottom: 5px; /* Margin for spacing between heading and paragraph */
+}
+
+p {
+  font-size: 14px; /* Likely font size for the paragraph text */
+  line-height: 1.5; /* Line spacing for the paragraph text */
 }
 
 
