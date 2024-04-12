@@ -10,7 +10,8 @@
 
 h1 {
     font-family: 'Redaction', 'Climate Crisis', sans-serif;
-    font-size: 60px;
+    font-size: 50px;
+    padding: 10px;
   }
 
 h2 {
