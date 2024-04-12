@@ -263,6 +263,10 @@ body {
 
 /* MOBILE PROCESS PAGE STYLES */
  /* process cards */
+ .process h1 {
+  padding: 10px;
+ }
+
  .process-steps {
   display: block; 
 }
