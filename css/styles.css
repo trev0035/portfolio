@@ -9,7 +9,7 @@
 /* UNIVERSAL STYLES */
 
 h1 {
-    font-family: 'Redaction', sans-serif;
+    font-family: 'Redaction', 'Climate Crisis', sans-serif;
     font-size: 60px;
   }
 
@@ -320,9 +320,12 @@ body {
 
 /* develop now link*/
 .develop-now {
-  font-family: 'Redaction', 'Climate Crisis', sans-serif;
   padding-bottom: 25px;
   padding-top: 20px;
+}
+
+.develop-now h1{
+    font-family: 'Redaction', 'Climate Crisis', sans-serif;
 }
 
 .develop-now-link {
