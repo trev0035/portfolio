@@ -144,6 +144,7 @@ body {
 
 /* work cards */
 .card {
+  position: relative; 
   align-items: center;
   background: #FFFFFF; 
   margin: 40px;
@@ -151,34 +152,36 @@ body {
   border-radius: 20px; 
   padding: 15px; 
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
-  position: relative; 
   overflow: hidden;
 }
 
-.card-image img {
+ .card-image img {
   display: block;
-  max-width: 100%;
+  max-width: 95%;
   height: auto;
-}
+} 
 
 .card-text {
   display: block;
   margin-top: 20px;
   font-size: 12px;
-  font-weight: regular;
+  font-weight: normal;
 }
 
 .card p {
   line-height: 1.2;
+  margin-top: 10px;
 }
 
 /* project buttons */
 .card-button {
   display: block; 
+  text-decoration: none;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 15px;
-  font-weight: 550;
+  line-height: 55px;
+  font-weight: 500;
   font-size: 18px;
   width: 140px; 
   height: 55px;
@@ -188,6 +191,7 @@ body {
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.4);
   cursor: pointer; 
+  text-align: center;
 }
 
 /* MOBILE FOOTER STYLES */
