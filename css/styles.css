@@ -692,6 +692,17 @@ text-align: left;
 /* FAQ PAGE */
 
 
+.container-faq h1 {
+  font-size: 100px;
+}
+
+.accordion {
+  width: 100%;
+  max-width: 1200px;
+  align-items: center;
+}
+
+
 
 /* FOOTER */
 .develop-now-link {
