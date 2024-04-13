@@ -175,6 +175,35 @@ body {
   font-size: 20px; 
 }
 
+/* skills */
+
+.slider img {
+  width: 100px;
+  height: 100px;
+  animation: scroll 60s linear infinite;
+}
+
+.slide-track {
+  width: 100%;
+  height: auto;
+  display: flex;
+  gap: 3em;
+  overflow: hidden;
+}
+
+.slider {
+  margin-top: 15px;
+  margin-bottom: 20px;
+  background-color: white;
+  padding: 30px 0;
+}
+
+@keyframes scroll {
+  0% {transform: translateX(0);}
+  100% {transform: translatex(-1000%)}
+}
+
+
 /* MOBILE WORK PAGE STYLES*/
 /* work cards */
 .card {
@@ -408,7 +437,7 @@ body {
 }
 
 .accordion-button:not(.collapsed) {
-  background-color: rgb(211, 211, 211);
+  background-color: rgb(238, 238, 238);
 }
 
 .accordion-button {
