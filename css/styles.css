@@ -724,14 +724,14 @@ text-align: left;
 
 /* DESKTOP STYLES */
 .desktop-nav {
-  display: none;  /* Hide by default */
+  display: none;
 }
 
 /* Desktop Styles */
 @media screen and (min-width: 992px) {
   .desktop-nav {
     display: flex;
-    justify-content: center; /* Center the entire nav bar */
+    justify-content: center;
     align-items: center;
     width: 100%;
     padding: 0;
@@ -749,87 +749,8 @@ text-align: left;
 
   .desktop-nav .nav-link {
     color: #1E1E1E;
-    padding: 15px calc(10px + 1vw); /* Responsive padding based on the viewport width */
-    font-size: calc(2.7vw + 1vmin); /* Responsively adjust font size */
-    text-transform: uppercase;
-    transition: background-color 0.3s, color 0.3s;
-    display: inline-flex; /* Use inline-flex to align text center if necessary */
-    justify-content: center; /* Center text horizontally */
-    align-items: center; /* Center text vertically */
-    min-width: 120px; /* Minimum width to handle smaller text */
-    white-space: nowrap; /* Ensures text stays on a single line */
-    margin: 0 5px; /* Optional: adds a margin between links */
-  }
-
-  .desktop-nav .nav-link:hover, .desktop-nav .nav-link:focus {
-    background-color: #f8f9fa; /* Light grey background for hover */
-  }
-
-  .desktop-nav .nav-link.active {
-    background-color: #1E1E1E;
-    color: white;
-    pointer-events: none; /* Disables interactions to avoid hover effects */
-  }
-
-  .navbar-toggler {
-    display: none; /* Ensures that toggler is not shown on desktop */
-  }
-
-  
-  .desktop-nav .nav-item:nth-child(2) .nav-link {
-    border-radius: 60em / 30em; /* More rounded */
-  }
-
-  /* Custom border-radius for each nav link */
-  .desktop-nav .nav-item:nth-child(1) .nav-link,
-  .desktop-nav .nav-item:nth-child(3) .nav-link {
-    border-radius: 60em / 32em; /* More rounded */
-  }
-
-  .desktop-nav .nav-item:nth-child(4) .nav-link {
-    border-radius: 60em / 21em; /* Less rounded */
-  }
-
-  .desktop-nav .nav-item:nth-child(5) .nav-link {
-    border-radius: 60em / 23em; /* Less rounded */
-  }
-
-  .desktop-nav .nav-item:nth-child(6) .nav-link {
-    border-radius: 60em / 41em; /* Specific for longer items */
-  }
-
-  /* Ensure the body and html take full width */
-  html, body {
-    width: 100%;
-    max-width: 100%;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden; /* Prevents horizontal scroll */
-  }
-
-  /* Nav bar settings */
-  .desktop-nav {
-    display: flex;
-    justify-content: center; /* Center the entire nav bar */
-    align-items: center;
-    width: 100%;
-    padding: 0;
-    margin: 0;
-  }
-
-  .desktop-nav .nav {
-    display: flex;
-    justify-content: space-around; /* Adjust this to space-evenly if needed */
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    list-style: none;
-  }
-
-  .desktop-nav .nav-link {
-    color: #1E1E1E;
-    padding: 15px calc(10px + 1vw); /* Responsive padding */
-    font-size: calc(2.7vw + 1vmin); /* Responsive font size */
+    padding: 15px calc(10px + 1vw);
+    font-size: calc(2.7vw + 1vmin);
     text-transform: uppercase;
     transition: background-color 0.3s, color 0.3s;
     display: inline-flex;
@@ -847,11 +768,88 @@ text-align: left;
   .desktop-nav .nav-link.active {
     background-color: #1E1E1E;
     color: white;
-    pointer-events: none;
   }
 
   .navbar-toggler {
-    display: none; /* Hide the hamburger menu icon */
+    display: none;
+  }
+
+  
+  .desktop-nav .nav-item:nth-child(2) .nav-link {
+    border-radius: 60em / 30em;
+  }
+
+  /* Custom border-radius for each nav link */
+  .desktop-nav .nav-item:nth-child(1) .nav-link,
+  .desktop-nav .nav-item:nth-child(3) .nav-link {
+    border-radius: 60em / 32em;
+  }
+
+  .desktop-nav .nav-item:nth-child(4) .nav-link {
+    border-radius: 60em / 21em;
+  }
+
+  .desktop-nav .nav-item:nth-child(5) .nav-link {
+    border-radius: 60em / 23em;
+  }
+
+  .desktop-nav .nav-item:nth-child(6) .nav-link {
+    border-radius: 60em / 41em;
+  }
+
+  /* Ensure the body and html take full width */
+  html, body {
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  /* Nav bar settings */
+  .desktop-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+  }
+
+  .desktop-nav .nav {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .desktop-nav .nav-link {
+    color: #1E1E1E;
+    padding: 15px calc(10px + 1vw);
+    font-size: calc(2.7vw + 1vmin);
+    text-transform: uppercase;
+    transition: background-color 0.3s, color 0.3s;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 120px;
+    white-space: nowrap;
+    margin: 0 5px;
+  }
+
+  .desktop-nav .nav-link:hover, .desktop-nav .nav-link:focus {
+    background-color: #f8f9fa;
+  }
+
+  .desktop-nav .nav-link.active {
+    background-color: #1E1E1E;
+    color: white;
+  }
+
+  .navbar-toggler {
+    display: none;
   }
 }
 
