@@ -7,6 +7,9 @@
   }
 
 /* UNIVERSAL STYLES */
+html {
+  scroll-behavior: smooth;
+}
 
 h1 {
     font-family: 'Redaction', 'Climate Crisis', sans-serif;
