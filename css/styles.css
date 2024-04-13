@@ -373,6 +373,36 @@ body {
   background-color: #021BDF; /* Darker blue on hover */
 }
 
+/* MOBILE FAQ PAGE STYLES */
+.container-faq img{
+  display: none;
+}
+.container-faq {
+  display: block;
+  margin: 20px;
+  max-width: 100%; /* Make sure the container does not exceed 100% width */
+  box-sizing: border-box; /* Include padding and border in the element's total width */
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: rgb(211, 211, 211);
+}
+
+.accordion-button {
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.accordion-body {
+  font-size: 16px;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: normal;
+}
+
+
+
+
 /* MOBILE FOOTER STYLES */
 .footer {
   position: relative;
