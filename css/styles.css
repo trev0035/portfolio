@@ -152,7 +152,30 @@ body {
   position: relative;
 }
 
-/* MOBILE WORK PAGE */
+/* MOBILE ABOUT PAGE STYLES */
+/* bio */
+.about-section {
+  text-align: center;
+  padding: 40px;
+}
+
+.about-section p, .about-section h2 {
+  font-weight: bold;
+  margin-bottom: 0px; 
+  line-height: 1.5;
+}
+
+.about-section .trevs-logo {
+  font-family: "Moirai One", system-ui; 
+  font-size: 60px;
+  line-height: 1.2; 
+}
+
+.about-section .about-description {
+  font-size: 20px; 
+}
+
+/* MOBILE WORK PAGE STYLES*/
 /* work cards */
 .card {
   position: relative; 
