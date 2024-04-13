@@ -308,6 +308,8 @@ body {
   right: 30px;
   bottom: 0;
   backdrop-filter: blur(20px);
+  /* fallback option */
+  background: rgba(0, 0, 0, 0.5);
   padding: 15px;
   display: flex;
   flex-direction: column;
