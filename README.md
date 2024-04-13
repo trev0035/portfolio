@@ -66,6 +66,7 @@ The following assets and resources were utilized in the creation of my portfolio
 
 - **Frameworks and Libraries:**
   - Bootstrap 5: `https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css`
+  - ScrollReveal: `https://scrollrevealjs.org/`
 
 - **Custom Styles:**
   - Reset CSS: `http://meyerweb.com/eric/tools/css/reset/`
