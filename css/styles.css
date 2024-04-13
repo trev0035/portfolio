@@ -625,6 +625,45 @@ width: 138px;
   margin-left: 300px;
 }
 
+ /* WORK PAGE */
+ .cards-container {
+  display: flex; /* Use flexbox to lay out children in a row */
+  justify-content: center; /* Center cards in the container */
+  gap: 20px; /* Space between cards */
+}
+
+.card {
+  flex: 1; /* Flex children grow and shrink as needed */
+  max-width: calc(50% - 10px); /* Half width minus the gap */
+  margin-bottom: 0; /* Remove margin between cards on desktop */
+}
+
+/* Ensure that images don't stretch too big on larger screens */
+.card-content img {
+  max-width: 300px; /* Max width for images */
+  margin-left: auto; /* Center image horizontally */
+  margin-right: auto; /* Center image horizontally */
+}
+
+/* PROJECT PAGE */
+.gallery-card-title {
+  font-size: 80px;
+  margin-bottom: 0px;
+}
+
+/*  Process Page */
+.process {
+font-size: 85px;
+padding-left: 50px;
+text-align: left;
+}
+
+.process-steps{
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+
 /* FOOTER */
 .develop-now-link {
   font-size: 100px;
