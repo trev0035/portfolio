@@ -30,6 +30,14 @@ body {
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
   }
 
+  body, html {
+    cursor: url('/images/cursor.png'), auto;
+  }
+
+  * {
+    cursor: inherit;
+  }
+
   .site-container {
     max-width: 100%
   }
