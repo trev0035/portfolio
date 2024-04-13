@@ -309,31 +309,69 @@ body {
   font-size: 16px; 
 }
 
-/* MOBILE SERVICES STYLES */
-/* Unique styles for service cards */
-.service-card {
-  margin: 60px auto; /* Increased margin for slimmer appearance */
-  padding: 10px; /* Reduced padding */
+/* MOBILE CONTACT PAGE STYLES */
+/* Contact Header Styles */
+.contact-header {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
-/* This will affect only the images within service cards */
-.service-card .card-image img {
-  max-width: 90%; /* Adjust width as necessary */
+.contact-header h1 {
+  margin: 15px; 
 }
 
-/* Optionally, you can adjust the text styles within service cards as well */
-.service-card .card-text {
-  font-size: 13px; /* Adjust font size as necessary */
-  line-height: 1.3; /* Adjust line height as necessary */
+.contact-image {
+  display: none;
 }
 
-/* If you have additional unique elements in the service cards, add styles for them too */
-.service-card .service-description {
-  /* Unique styles for the service description */
+/* Contact Form Card Styles */
+.contact-form-card {
+  background: #FFFFFF;
+  margin: 40px auto;
+  margin-top: 5px;
+  border-radius: 20px;
+  padding: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  width: 90%;
 }
 
+.contact-form {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 15px;
+  margin: 5px;
+}
 
+.contact-form label {
+  display: block;
+  text-align: left;
+}
 
+.contact-form input,
+.contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  border: none; 
+  border-bottom: 1px solid #010101;
+  border-radius: 0;
+  box-sizing: border-box;
+}
+
+/* button connect */
+.btn-connect {
+  background-color: #022BFF;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.btn-connect:hover {
+  background-color: #021BDF; /* Darker blue on hover */
+}
 
 /* MOBILE FOOTER STYLES */
 .footer {
